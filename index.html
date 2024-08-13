@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de vista para dispositivos móviles -->
+  <title>Clima Widget</title> <!-- Título de la página -->
+  <link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/700281-icon-40-clouds-1024.png" type="image/x-icon"> <!-- Icono de la pestaña -->
+  <script src="https://kit.fontawesome.com/c6b04e4465.js" crossorigin="anonymous"></script> <!-- Fuente de íconos FontAwesome -->
+  <link rel="stylesheet" href="style.css"> <!-- Vincula el archivo CSS -->
+</head>
+<body>
+  <!-- Título principal -->
+  <div class="title">Tu clima, del país que tu desees!</div>
+
+  <!-- Contenedor de fecha y hora -->
+  <div class="date-time">
+    <p class="time">00:00:00</p>
+    <p class="date">-- 00/00/0000</p>
+  </div>
+
+  <!-- Contenedor de tarjetas de clima -->
+  <div class="card-weather">
+    <div class="card-1">
+      <p>Por favor ingresa el nombre de una ciudad o país en la casilla de abajo.</p>
+    </div>
+    <div class="card-2"></div>
+  </div>
+
+  <!-- Campo de entrada y botón de búsqueda -->
+  <div class="input">
+    <input type="text" class="search-weather" placeholder="Ingresa una ciudad"> <!-- Campo de texto -->
+    <button class="search">Buscar</button> <!-- Botón de búsqueda -->
+  </div>
+
+  <!-- Pie de página con enlaces y créditos -->
+  <div class="footer">
+    <ul>
+      <li><a href="https://github.com/dancorbo" target="_blank"><i class="fa-brands fa-github"></i> Github</a></li>
+      <li><a href="https://x.com/dan_corbo225" target="_blank"><i class="fa-brands fa-x-twitter"></i> Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/daniel-corbo225" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+    </ul>
+    <p>Creado por Daniel Corbo - 2024</p>
+  </div>
+
+  <!-- Vincula el archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
